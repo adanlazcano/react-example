@@ -1,20 +1,23 @@
 import './App.css';
-import Message from './Message';
+
+import {Notes} from './Elements';
+
+
+
 
 const App = _ =>  {
-
-    const greeting = 'Hello World';
+   
+  
+   
+    
     return ( 
-        <div className = "App" >
-
-        {greeting + ' adan'}
-
-        <Message color="red" msg="red"/>
-        <Message color="green" msg="green"/>
-        <Message color="yellow" msg="yellow"/>
+      
+       <div className = "App" >
+  
+       <Notes/>
 
         </div>
     );
-}
+    }
 
 export default App;
